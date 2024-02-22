@@ -24,10 +24,13 @@ The default root component of the application is the ```app.vue``` file
 
 The nuxt folder is used by nuxt.js during development to generate the nuxt application adn you don't need to go exploring it or changing anything within that folder.
 
+#### Pages Directory
+
+It hosts all respective prjoects components creating routes in parallelity.
+
 # Running Project
 
 You can run the projects locally by running the following command on the terminal:
 
     ```npm run dev```
 
-    
