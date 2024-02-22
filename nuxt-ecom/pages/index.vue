@@ -6,10 +6,10 @@
             colorful tycoons from U.S. history, including Steve Jobs, Howard Hughes, 
             and Henry Ford. He was named the richest person in the world in 2021, 
             surpassing Amazon (AMZN) founder Jeff Bezos. 
-            
+
             Musk is the richest person in the world as of Feb. 15, 2024
         </p>
-      
+
     </div>
 </template>
 
