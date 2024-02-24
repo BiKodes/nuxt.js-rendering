@@ -24,9 +24,17 @@ The default root component of the application is the ```app.vue``` file
 
 The nuxt folder is used by nuxt.js during development to generate the nuxt application adn you don't need to go exploring it or changing anything within that folder.
 
+# Software Design Priciples
+
+The projects keeps one core fundamental of software design principle of DRY. This is achieved via the layouts folder at the root of every directory. The inheritive aspect of code around projects emanates from this source.
+
 #### Pages Directory
 
 It hosts all respective prjoects components creating routes in parallelity.
+
+# Project Data
+
+The projects data is majorly sourced from ```fakestoreapi.com``` as it can be used with any type of shopping project that needs products, carts, and users in JSON format.
 
 # Running Project
 

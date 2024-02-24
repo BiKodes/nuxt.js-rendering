@@ -1,20 +1,20 @@
 <template>
     <div>
-        <p>
-            If you compare how product pages take shape across different companies, 
-            it's clear they run the gamut. Some go for the direct approach, displaying 
-            an image of a product and explaining why someone should buy it. 
-            
-            Other companies create elaborate pages with moving parts and fancy, interactive 
-            elements.
-        </p>
+       <div class="grid grid-col-4 gap-5">
+        <div v-for="p in products">
+            <nuxt-link :to="`/products/${p.id}`">{{ p.title }}</nuxt-link>
+        </div>
+       </div>
     </div>
 </template>
 
-<script>
-    export default {
-        
-    }
+<script setup>
+    definePageMeta({
+        layout: 'products'
+    })
+
+    const { data: products } = await useFetch('https://fakestoreapi.com/products')
+
 </script>
 
 <style scoped>
