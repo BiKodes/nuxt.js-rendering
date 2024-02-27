@@ -32,6 +32,10 @@ The projects keeps one core fundamental of software design principle of DRY. Thi
 
 It hosts all respective prjoects components creating routes in parallelity.
 
+# Project Data
+
+The projects data is majorly sourced from ```fakestoreapi.com``` as it can be used with any type of shopping project that needs products, carts, and users in JSON format.
+
 # Running Project
 
 You can run the projects locally by running the following command on the terminal:
