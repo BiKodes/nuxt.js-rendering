@@ -16,6 +16,16 @@
     //  fetch the products
     const { data: products } = await useFetch('https://fakestoreapi.com/products')
 
+    useHead({
+        title: "Alfajiri Sales | Match",
+        meta: [
+            {
+                name: 'description',
+                content: 'Alfajiri Sales Hot Match'
+            }
+        ]
+    })
+
 </script>
 
 <style scoped>
