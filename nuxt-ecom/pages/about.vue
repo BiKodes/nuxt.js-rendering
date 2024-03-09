@@ -16,11 +16,12 @@
             
             Musk is the richest person in the world as of Feb. 15, 2024
         </p>
+        <div>{{ data }}</div>
     </div>
 </template>
 
 <script setup>
-
+    const { data } = await useFetch('/api/currency/:code')
 </script>
 
 <style scoped>
